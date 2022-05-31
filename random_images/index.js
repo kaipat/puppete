@@ -18,7 +18,7 @@ const INDEX_URL = BASE_URL + '/wallpaper/097a1e7a.html';
   await browser.close();
   info(list);
   list.forEach(url => {
-    fastload(url, 'public');
+    fastload(url, 'c://users/vzan/Desktop');
   });
 })();
 
