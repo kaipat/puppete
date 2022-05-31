@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "puppete",
+  "version": "1.0.0",
+  "description": "",
+  "export": "./app.js",
+  "scripts": {
+    "random_images:dev": "nodemon ./random_images",
+    "random_images": "node ./random_images"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "fastload": "0.0.4",
+    "puppeteer": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
